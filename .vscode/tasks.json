@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Package EXE application",
+            "type": "shell",
+            "command": "\"${command:python.interpreterPath}\" nuitka --onefile --standalone --enable-plugin=pyside6 --windows-icon-from-ico=assets/images/logo.ico --disable-console -o \"Asetto Corsa Randomizer\" main.py"
+        }
+    ]
+}

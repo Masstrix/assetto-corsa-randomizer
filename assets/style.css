@@ -1,0 +1,32 @@
+AppWindow {
+  background: #1f1f1f;
+}
+
+PreviewCard {
+  background: rgb(20, 20, 20);
+  border-radius: 20px;
+  padding: 20px;
+}
+PreviewCard #info * {
+  color: white;
+}
+PreviewCard ImageWidget {
+  margin: 0;
+}
+PreviewCard #title {
+  font: 20pt;
+}
+
+QPushButton {
+  background: rgb(255, 79, 79);
+  color: white;
+  padding: 30 50;
+  border: none;
+  border-radius: 5px;
+}
+QPushButton:hover {
+  background: #ff8282;
+}
+QPushButton:pressed {
+  background: #ff1c1c;
+}/*# sourceMappingURL=style.css.map */

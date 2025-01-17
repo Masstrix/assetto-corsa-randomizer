@@ -1,0 +1,44 @@
+$background: #1f1f1f;
+$accent: rgb(255, 79, 79);
+
+AppWindow {
+    background: $background;
+}
+
+PreviewCard {
+    background: rgb(20, 20, 20);
+    border-radius: 20px;
+    padding: 20px;
+
+    #info {
+        * {
+            color: white;
+        }
+    }
+
+    ImageWidget {
+        margin: 0;
+    }
+
+    #title {
+        font: 20pt;
+    }
+}
+
+
+QPushButton {
+    background: $accent;
+    color: white;
+    padding: 30 50;
+
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        background: lighten($accent, 10);
+    }
+
+    &:pressed {
+        background: darken($accent, 10);
+    }
+}
